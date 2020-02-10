@@ -1,0 +1,32 @@
+2019-11-22 11:53:25,603 - Logging -INFO - info
+2019-11-22 11:53:25,609 - Logging -ERROR - error
+2019-11-22 11:53:25,609 - Logging -FATAL - fatal
+2019-11-22 11:53:25,609 - Logging -WARN - warn
+2019-11-22 11:57:01,561 - Logging -INFO - info
+2019-11-22 11:57:01,565 - Logging -ERROR - error
+2019-11-22 11:57:01,565 - Logging -FATAL - fatal
+2019-11-22 11:57:01,565 - Logging -WARN - warn
+2019-11-22 13:36:42,493 - Logging -INFO - info
+2019-11-22 13:36:42,497 - Logging -ERROR - error
+2019-11-22 13:36:42,497 - Logging -FATAL - fatal
+2019-11-22 13:36:42,497 - Logging -WARN - warn
+2019-11-22 14:00:18,081 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-25 15:19:06,020 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-25 15:19:07,105 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-25 15:21:22,912 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 11:14:50,799 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 11:15:35,773 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 11:59:30,047 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 12:00:26,151 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 12:16:00,955 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 12:27:29,641 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 12:28:32,210 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 12:30:07,433 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 12:31:26,780 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 12:32:19,243 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 12:46:07,643 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 12:49:17,501 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 14:35:04,908 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 14:47:31,573 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 14:50:47,696 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
+2019-11-26 14:53:18,252 - Logging -INFO - The url is https://www.awscmg-dev.dwpcloud.uk
