@@ -16,8 +16,10 @@ public class StreamClass {
         name.add("add");
         name.add("Asdf");
         name.add("ttt");
+        name.add("Asifa");
 
         Long c=name.stream().filter(s->s.startsWith("A")).count();
+        name.stream().filter(s->s.startsWith("A")).forEach(s->System.out.println(s));
         System.out.println(c);
     }
 }
