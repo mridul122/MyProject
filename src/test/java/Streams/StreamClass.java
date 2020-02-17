@@ -1,0 +1,23 @@
+package Streams;
+
+import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+
+public class StreamClass {
+
+    @Test
+    public void getCount()
+    {
+        ArrayList<String> name = new ArrayList<String>();
+
+        name.add("Ajhjh");
+        name.add("Dkjjk");
+        name.add("add");
+        name.add("Asdf");
+        name.add("ttt");
+
+        Long c=name.stream().filter(s->s.startsWith("A")).count();
+        System.out.println(c);
+    }
+}

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd7b1080-e58d-48ef-a602-9a5460cb1fd6" name="Default Changelist" comment="" />
+    <list default="true" id="fd7b1080-e58d-48ef-a602-9a5460cb1fd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -66,6 +68,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.jenkinsfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -154,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Practice/RestAPI.java" />
         <option value="$PROJECT_DIR$/src/test/java/ListenersDemo/Testcase.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.jenkinsfile" />
       </list>
     </option>
   </component>
@@ -284,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RunnerTest">
+  <component name="RunManager" selected="TestNG.StreamClass.getCount">
     <configuration name="Final" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.serialization.Final" />
       <module name="MyNewProject" />
@@ -324,19 +336,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Utils.Utils" />
-      <module name="MyNewProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyNewProject" />
       <extension name="coverage">
@@ -352,13 +351,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamClass.getCount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Streams" />
+      <option name="MAIN_CLASS_NAME" value="Streams.StreamClass" />
+      <option name="METHOD_NAME" value="getCount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StreamClass.getCount" />
         <item itemvalue="JUnit.RunnerTest" />
         <item itemvalue="Application.Final" />
         <item itemvalue="Application.Json2Java" />
         <item itemvalue="Application.SSHConnect" />
-        <item itemvalue="Application.Utils" />
       </list>
     </recent_temporary>
   </component>
@@ -716,6 +733,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
