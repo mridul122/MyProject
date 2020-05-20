@@ -17,6 +17,7 @@ public class Final {
             Credentials credentials = new Credentials(uid[i], "pass");
             Payload payload = new Payload (credentials);
             ObjectMapper obj = new ObjectMapper();
+
             String json = obj.writerWithDefaultPrettyPrinter().writeValueAsString(payload);
             System.out.println(json);
             JSONArray jar  = new JSONArray();
