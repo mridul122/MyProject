@@ -28,8 +28,8 @@ post {
         allowMissing: false,
         alwaysLinkToLastBuild: true,
         keepAll: true,
-        reportDir: "output/report.html",
-        reportFiles: 'overview-features.html',
+        reportDir: "ouput",
+        reportFiles: 'report.html',
         reportName: 'Extent Reports',
         reportTitles: 'Automation-test-reports'
       ])
