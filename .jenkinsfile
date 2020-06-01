@@ -24,11 +24,11 @@ sh "mvn test"
 }
 post {
     always {
-      publishHTML(output: [
+      publishHTML([
         allowMissing: false,
         alwaysLinkToLastBuild: true,
         keepAll: true,
-
+        reportDir: "ouput",
         reportFiles: 'report.html',
         reportName: 'Extent Reports',
         reportTitles: 'Automation-test-reports'
