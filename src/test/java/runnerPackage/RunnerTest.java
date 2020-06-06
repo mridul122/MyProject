@@ -14,7 +14,7 @@ import java.io.File;
 @CucumberOptions(
         features = "src/test/java/Features",
         glue= {"stepDefinitions"},
-        tags={"@IAM-Bulk"},plugin = {"com.cucumber.listener.ExtentCucumberFormatter:output/report.html"},
+        tags={"@IAM-Bulk"},plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/report.html"},
         //dryRun =true,
         //plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/myreport.html"},
         //plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},

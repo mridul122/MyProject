@@ -28,7 +28,7 @@ post {
         allowMissing: false,
         alwaysLinkToLastBuild: true,
         keepAll: true,
-        reportDir: "ouput",
+        reportDir: "target",
         reportFiles: 'report.html',
         reportName: 'Extent Reports',
         reportTitles: 'Automation-test-reports'
