@@ -1,6 +1,7 @@
 restAssured/GetData.class
 Practice/Json2Java.class
 ListenersDemo/TestNGListener.class
+Streams/StreamClass.class
 Practice/serialization/Final.class
 Practice/TestNGDemo.class
 Practice/TestNGDemo2.class
@@ -9,13 +10,14 @@ restAssured/Credentials.class
 runnerPackage/RunnerTest.class
 stepDefinitions/SetDef1.class
 Practice/SearchDetails.class
-Report/ExtentReporting.class
 stepDefinitions/IAM_Steps.class
 Report/Hooks.class
+Practice/SSH.class
 Practice/dateDemo.class
 Practice/RestAPI.class
 Practice/chromeStandalone.class
 stepDefinitions/SetpDef.class
+Practice/Jmeter.class
 Practice/Logging.class
 Practice/serialization/Payload.class
 Utils/Utils.class

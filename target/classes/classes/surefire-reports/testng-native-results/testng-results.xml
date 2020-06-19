@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-25T14:39:06Z" name="Surefire suite" finished-at="2020-03-25T14:39:06Z" duration-ms="20">
+  <suite started-at="2020-06-06T20:14:15Z" name="Surefire suite" finished-at="2020-06-06T20:14:15Z" duration-ms="25">
     <groups>
     </groups>
-    <test started-at="2020-03-25T14:39:06Z" name="Surefire test" finished-at="2020-03-25T14:39:06Z" duration-ms="20">
+    <test started-at="2020-06-06T20:14:15Z" name="Surefire test" finished-at="2020-06-06T20:14:15Z" duration-ms="25">
       <class name="Practice.TestNGDemo2">
-        <test-method signature="exclude()[pri:0, instance:Practice.TestNGDemo2@7f0eb4b4]" started-at="2020-03-25T14:39:06Z" name="exclude" finished-at="2020-03-25T14:39:06Z" duration-ms="0" status="PASS">
+        <test-method signature="exclude()[pri:0, instance:Practice.TestNGDemo2@7f0eb4b4]" started-at="2020-06-06T20:14:15Z" name="exclude" finished-at="2020-06-06T20:14:15Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exclude -->
-        <test-method signature="hello()[pri:0, instance:Practice.TestNGDemo2@7f0eb4b4]" started-at="2020-03-25T14:39:06Z" name="hello" finished-at="2020-03-25T14:39:06Z" duration-ms="0" status="PASS">
+        <test-method signature="hello()[pri:0, instance:Practice.TestNGDemo2@7f0eb4b4]" started-at="2020-06-06T20:14:15Z" name="hello" finished-at="2020-06-06T20:14:15Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hello -->
       </class> <!-- Practice.TestNGDemo2 -->
       <class name="Practice.TestNGDemo">
-        <test-method signature="demo()[pri:0, instance:Practice.TestNGDemo@2b662a77]" started-at="2020-03-25T14:39:06Z" name="demo" finished-at="2020-03-25T14:39:06Z" duration-ms="4" status="PASS">
+        <test-method signature="demo()[pri:0, instance:Practice.TestNGDemo@2b662a77]" started-at="2020-06-06T20:14:15Z" name="demo" finished-at="2020-06-06T20:14:15Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
