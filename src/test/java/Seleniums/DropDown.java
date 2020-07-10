@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-
+//import static org.openqa.selenium.support.locators.RelativeLocator.withTagName;
 public class DropDown {
 
 
@@ -18,6 +18,9 @@ public class DropDown {
 
         Select select = new Select(driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency")));
         select.selectByValue("USD");
+       // driver.findElement(withTagName("")).
+
+        //driver.findElement()
 //driver.cl  /ose();
     }
 }
