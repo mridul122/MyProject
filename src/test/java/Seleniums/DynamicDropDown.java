@@ -11,7 +11,7 @@ public class DynamicDropDown {
 
     public static void main(String[] args) throws Exception {
 
-        System.setProperty("webdriver.chrome.driver","./output/chromedriver 3");
+        System.setProperty("webdriver.chrome.driver","./output/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.spicejet.com");
         driver.manage().window().maximize();
