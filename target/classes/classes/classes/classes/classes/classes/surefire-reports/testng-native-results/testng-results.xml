@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-10T13:03:12Z" name="Surefire suite" finished-at="2020-07-10T13:03:12Z" duration-ms="25">
+    <groups>
+    </groups>
+    <test started-at="2020-07-10T13:03:12Z" name="Surefire test" finished-at="2020-07-10T13:03:12Z" duration-ms="25">
+      <class name="Practice.TestNGDemo2">
+        <test-method signature="exclude()[pri:0, instance:Practice.TestNGDemo2@77fbd92c]" started-at="2020-07-10T13:03:12Z" name="exclude" finished-at="2020-07-10T13:03:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exclude -->
+        <test-method signature="hello()[pri:0, instance:Practice.TestNGDemo2@77fbd92c]" started-at="2020-07-10T13:03:12Z" name="hello" finished-at="2020-07-10T13:03:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- Practice.TestNGDemo2 -->
+      <class name="Practice.TestNGDemo">
+        <test-method signature="demo()[pri:0, instance:Practice.TestNGDemo@59662a0b]" started-at="2020-07-10T13:03:12Z" name="demo" finished-at="2020-07-10T13:03:12Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- Practice.TestNGDemo -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
