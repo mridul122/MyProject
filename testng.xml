@@ -1,32 +1,21 @@
-<!--<?xml version="1.0" encoding="UTF-8"?>-->
-<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
-<!--<suite name="Loan">-->
-<!--    <test verbose="2" preserve-order="true" name="Personal Loan">-->
-<!--        <classes>-->
-
-<!--            <class name="Practice.TestNGDemo"/>-->
-<!--                <class name="Practice.TestNGDemo2">-->
-<!--                    <methods>-->
-<!--                        <exclude name="exclude"></exclude>-->
-<!--                    </methods>-->
-<!--                </class>-->
-
-
-
-<!--&lt;!&ndash;                <methods>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <include name="demo"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                </methods>&ndash;&gt;-->
-<!--&lt;!&ndash;            </class>&ndash;&gt;-->
-
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="date">-->
-<!--        <classes>-->
-<!--            <class name="Practice.dateDemo">-->
-<!--                <methods>-->
-<!--                    <include name="date"></include>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--</suite>-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ExtentReports.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/mridul.das/.jenkins/MyNewProject/src/test/java/ExtentReports">
+        <classes>
+            <class name="ExtentReports.Test1">
+                <methods>
+                    <include name="intitialDemo" />
+                </methods>
+            </class>
+            <class name="ExtentReports.Test2">
+                <methods>
+                    <include name="test2" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
