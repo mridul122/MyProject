@@ -11,26 +11,38 @@ public class Listeners implements ITestListener {
 
     ExtentReports extentReports = ExtentReporting.config();
     ExtentTest test;
+    ThreadLocal <ExtentTest> threads = new ThreadLocal<ExtentTest>();
 
     @Override
     public void onTestStart(ITestResult result) {
 
 
         test = extentReports.createTest(result.getMethod().getMethodName());
+        threads.set(test);
 
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
 
-        test.log(Status.PASS,"Success");
+        //test.log(Status.PASS,"Success");
+        threads.get().log(Status.PASS,"Success");
     }
 
     @Override
-    public void onTestFailure(ITestResult result) {
+    public void onTestFailure(ITestResult result)  {
 
-        test.fail(result.getThrowable());
 
+try {
+//        test.fail(result.getThrowable());
+    threads.get().fail(result.getThrowable());
+    threads.get().addScreenCaptureFromPath("/Users/mridul.das/Downloads/pegs1.jpg");
+//        threads.get().addScreenCaptureFromPath("","");
+}
+catch (Exception e)
+{
+
+}
     }
 
     @Override
