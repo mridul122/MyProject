@@ -1,4 +1,4 @@
-Feature: Login
+ Feature: Login
   To test the login functionality
 
   @SmokeTest

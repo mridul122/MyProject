@@ -24,9 +24,11 @@ public class WebDriverManage {
        // WebDriver driver = new FirefoxDriver();
         dr =new ChromeDriver();
 
+
         driver = new EventFiringWebDriver(dr);
         eventListener = new EventCapture();
         driver.register(eventListener);
+        System.setProperty("webdriver.chrome.logfile", "./chromedriver.log");
 //        driver.navigate().to("https://www.google.com");
         driver.get("https://www.google.com");
         Thread.sleep(3000);
