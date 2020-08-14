@@ -44,3 +44,14 @@ Feature: To verify the AD and user sync adapter
       Examples:
       |noofiterations|
       |8             |
+
+
+  @IAM-BulkUpdate1
+  Scenario Outline:  verify the user update for multiple users
+    Given  rest connectivity is proper
+    When  provide the "<noofiterations>"
+    Then  the we should validate
+
+    Examples:
+      |noofiterations|
+      |8             |
