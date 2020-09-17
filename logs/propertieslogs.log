@@ -1,0 +1,6 @@
+[INFO ] 2020-09-17 20:21:52.217 [main] LoggingTest - This is info
+[ERROR] 2020-09-17 20:21:52.219 [main] LoggingTest - This is error
+[FATAL] 2020-09-17 20:21:52.219 [main] LoggingTest - This is fatal
+[DEBUG] 2020-09-17 20:21:52.220 [main] LoggingTest - Debugging
+[WARN ] 2020-09-17 20:21:52.220 [main] LoggingTest - This is warning
+[TRACE] 2020-09-17 20:21:52.220 [main] LoggingTest - This is tracing

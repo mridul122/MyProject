@@ -14,7 +14,7 @@ import java.io.File;
 @CucumberOptions(
         features = "src/test/java/Features",
         glue= {"stepDefinitions"},
-        tags={"@IAM-Bulk"},plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/report.html"},
+        tags={"@IAM-Bulk"},plugin = {"json:target/cucumber.json"},
         //dryRun =true,
         //plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/myreport.html"},
         //plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
@@ -31,10 +31,10 @@ public class RunnerTest {
 
         @AfterClass
         public static void teardown() {
-                Reporter.loadXMLConfig(new File("src/Resources/extent-config.xml"));
-                Reporter.setSystemInfo("user", System.getProperty("user.name"));
-                Reporter.setSystemInfo("os", "Mac OSX");
-                Reporter.setTestRunnerOutput("Sample test runner output message");
+//                Reporter.loadXMLConfig(new File("src/Resources/extent-config.xml"));
+//                Reporter.setSystemInfo("user", System.getProperty("user.name"));
+//                Reporter.setSystemInfo("os", "Mac OSX");
+//                Reporter.setTestRunnerOutput("Sample test runner output message");
         }
 
 }
