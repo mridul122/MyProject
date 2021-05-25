@@ -13,8 +13,8 @@ import java.io.File;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/Features",
-        glue= {"stepDefinitions"},
-        tags={"@IAM-Bulk"},plugin = {"json:target/cucumber.json"},
+        glue= {"stepDefinitions","runnerPackage"},
+        tags={"@SmokeTest"},plugin = {"json:target/cucumber.json"},
         //dryRun =true,
         //plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/myreport.html"},
         //plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
