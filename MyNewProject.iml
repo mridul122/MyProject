@@ -116,7 +116,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.google.inject:guice:no_aop:4.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: aopalliance:aopalliance:1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.yaml:snakeyaml:1.21" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.21" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-picocontainer:1.2.5" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:cucumber-jvm-deps:1.0.5" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:gherkin:2.12.2" level="project" />
@@ -165,5 +165,17 @@
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-api:2.8.4" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-manager:2.8.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.plexus:plexus-compiler-javac:2.8.4" level="project" />
+    <orderEntry type="library" name="Maven: tech.grasshopper:extentreports-cucumber6-adapter:2.8.3" level="project" />
+    <orderEntry type="library" name="Maven: tech.grasshopper:extent-pdf-report:1.7.3" level="project" />
+    <orderEntry type="library" name="Maven: tech.grasshopper:cucumber-pdf-report:2.2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.pdfbox:pdfbox:2.0.22" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.pdfbox:fontbox:2.0.22" level="project" />
+    <orderEntry type="library" name="Maven: org.knowm.xchart:xchart:3.8.0" level="project" />
+    <orderEntry type="library" name="Maven: de.erichseifert.vectorgraphics2d:VectorGraphics2D:0.13" level="project" />
+    <orderEntry type="library" name="Maven: de.rototor.pdfbox:graphics2d:0.30" level="project" />
+    <orderEntry type="library" name="Maven: com.madgag:animated-gif-lib:1.4" level="project" />
+    <orderEntry type="library" name="Maven: tech.grasshopper:table-layout:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.18" level="project" />
+    <orderEntry type="library" name="Maven: com.aventstack:klov-reporter:5.0.8" level="project" />
   </component>
 </module>

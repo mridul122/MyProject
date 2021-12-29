@@ -3,57 +3,64 @@
     "line": 1,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 160342,
-              "status": "passed"
-            },
-            "match": {
-              "location": "MyHooks.setUp()"
-            }
-          }
-        ],
         "line": 5,
-        "name": "To test the login functionality",
+        "name": ": To practice data table in cucumber",
         "description": "",
-        "id": "login;to-test-the-login-functionality",
+        "id": ":-to-test-the-cucumber-data-table;:-to-practice-data-table-in-cucumber",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 84390817,
+              "duration": 186934500,
               "status": "passed"
             },
-            "line": 6,
-            "name": "The application is open",
+            "line": 7,
+            "name": "The following details",
             "match": {
-              "location": "SetpDef.the_application_is_open()"
+              "location": "DataTableClass.the_following_details(DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "Mridul",
+                  "474874",
+                  "XYZ"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Harry",
+                  "123",
+                  "TTT"
+                ],
+                "line": 9
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 67869,
+              "duration": 44000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "The user populates the credentials",
+            "line": 10,
+            "name": "This is the game",
             "match": {
-              "location": "SetpDef.the_user_populates_the_credentials()"
+              "location": "DataTableClass.this_is_the_game()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 100959,
+              "duration": 38300,
               "status": "passed"
             },
-            "line": 8,
-            "name": "The user should be navigated to the home page",
+            "line": 11,
+            "name": "That",
             "match": {
-              "location": "SetpDef.the_user_should_be_navigated_to_the_home_page()"
+              "location": "DataTableClass.that()"
             },
             "keyword": "Then "
           }
@@ -61,15 +68,15 @@
         "tags": [
           {
             "line": 4,
-            "name": "@SmokeTest"
+            "name": "@DataTable"
           }
         ]
       }
     ],
-    "name": "Login",
-    "description": "To test the login functionality",
-    "id": "login",
+    "name": ": To test the cucumber data table",
+    "description": "",
+    "id": ":-to-test-the-cucumber-data-table",
     "keyword": "Feature",
-    "uri": "Myfeature.feature"
+    "uri": "DataTable.feature"
   }
 ]

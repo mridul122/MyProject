@@ -9,8 +9,4 @@
 
 
 
-  @SanityTest
-    Scenario: To test the product feature
-      Given The login is done
-      When The user searches a product
-      Then The product should be displayed
+

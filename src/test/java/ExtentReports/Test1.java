@@ -25,9 +25,9 @@ public class Test1 {
 //    extent.setSystemInfo("tester","mridul.das");
 //}
 
-@Test
-    public void intitialDemo()
-    {
-       System.out.println("This is test 1");
-    }
+//@Test
+//   //public void intitialDemo()
+//    {
+//       System.out.println("This is test 1");
+//    }
 }
